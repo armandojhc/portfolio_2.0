@@ -82,6 +82,19 @@ h4 {
     margin-top: 50px;
 }
 
+/* .card {
+    height: 00px;
+} */
+
+.card-img-top {
+    height: 200px;
+    /* width: 200px; */
+}
+
+/* .card {
+    margin-right: 20px;
+} */
+
 
 /* Media Queries */
 

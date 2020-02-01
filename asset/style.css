@@ -18,6 +18,7 @@
     background-color: rgb(165, 170, 177);
     height: 150px;
     padding-top: 20px;
+    border-bottom: solid rgb(53, 52, 52);
 }
 
 .display-3 {
@@ -45,6 +46,7 @@ h2 {
     height: 80px;
     margin-left: 0;
     margin-top: 30px;
+    border-top: solid rgb(53, 52, 52)
 }
 
 #bio {

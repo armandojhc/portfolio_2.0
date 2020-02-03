@@ -101,7 +101,7 @@ h2 {
 #profilepic {
     width: 200px;
     height: 180px;
-    border-radius: 50px; 
+    border-radius: 75px; 
     /* -webkit-transform: scale(.5); */
     /* -ms-transform: scale(.5); */
     /* transform: scale(.5); */
@@ -192,19 +192,21 @@ h4 {
     }
     #mainContainer {
         height: 2700px;
-        width: 790px;
+        width: 813px;
     }
     #footer {
-        width: 750px;
+        width: 813px;
     }
     #profilepic {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 70px;
         width: 400px;
         height: 334px;
         position: relative;
         left: 250px;
+        border-radius: 115px;
     }
     #toolsContainer {
         height: 1200px;

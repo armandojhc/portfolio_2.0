@@ -166,6 +166,15 @@ h4 {
     margin-left: none;
 }
 
+#contactContainer {
+    background: white;
+    transition: box-shadow 1s
+}
+
+#contactContainer:hover {
+    box-shadow: 0 0 30px  rgb(53, 52, 52); 
+} 
+
 @media (max-width: 1440px) {
     #resumeIcon {
         margin-left: 500px

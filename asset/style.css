@@ -166,6 +166,13 @@ h4 {
     margin-left: none;
 }
 
+@media (max-width: 1440px) {
+    #resumeIcon {
+        margin-left: 500px
+    }
+}
+
+
 
 @media (max-width: 800px) { 
     
@@ -187,6 +194,9 @@ h4 {
         position: relative;
         left: 180px;
     }
+    #resumeIcon {
+        margin-left: 60px;
+    }
     /* #aboutMe {
         /* height: 2000px; */
        
@@ -206,6 +216,7 @@ h4 {
     #profilepic {
         padding-left: 10px;
     }
+}
     /* #profilepic { 
         /* display: block; */
         /* margin-left: 50; */
@@ -217,7 +228,7 @@ h4 {
         left: 250px;
         border-radius: 115px; */ 
     /* }  
-}  */ 
+}  
 
  @media (max-width: 500px) { 
      .row {
@@ -240,9 +251,9 @@ h4 {
     #profilepic{
         position: relative;
         /* left: 30px;  */
-        margin-bottom: 10px;
-    }
-    #aboutParagraph {
+        /* margin-bottom: 10px;
+    /* } */
+    /* #aboutParagraph {
         text-align: center;
     }
     #portfolioHeader {
@@ -251,8 +262,29 @@ h4 {
     }
     #mainContainer {
         height: 900;
+    } 
+} */ 
+
+@media (max-width:425px) {
+    #profilepic {
+        margin-left: 80px;
     }
-    
+    #tools {
+        margin-left: 70px;
+    }
 }
 
+@media (max-width: 375px) {
+    #profilepic {
+        margin-left: 70px;
+    }
+    #tools {
+        margin-left: 40px;
+    }
+    #footer {
+        width: 383px;
+    }
+    #jumbotron {
+        width: 390px;
+    }
 }
